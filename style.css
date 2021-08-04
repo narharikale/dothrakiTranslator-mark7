@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama:wght@500&display=swap');
+
+
+:root{
+    --primary-color: #94E9A2;
+    --buttonBackground: #0b7d1d;
+    --borderColor: #38b000;
+    --outputBackground: #6fd780;
+    --buttonColor:#F2D492;
+}
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Georama', sans-serif;
+    margin: 0;
+    background-color:var(--primary-color);
+   
+}
+
+.main{
+    max-width: 800px;
+    margin: 5rem auto;
+    text-align: center;
+    min-height: 100vh;
+
+}
+textarea{
+    
+    display: block;
+    box-sizing: border-box;
+    padding:1.2rem;
+    max-width: 40rem;
+    width: 60%;
+    height: 90px;
+    margin: 2rem auto;
+    font-size: x-large;
+
+    border: 2px solid var(--borderColor);
+}
+button{
+    margin: 2rem 0rem ;
+    padding: 1rem 2rem;
+    background-color:var(--buttonBackground);
+    color: var(--buttonColor);
+    font-size: x-large;
+}
+
+
+
+#output-div{
+    
+    display: block;
+    box-sizing: border-box;
+    max-width: 40rem;
+    width: 60%;
+    min-height: 100px;
+    height: fit-content;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: var(--outputBackground);
+    border: 2px solid var(--borderColor);
+}
+
+
+
+
+
