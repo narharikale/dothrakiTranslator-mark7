@@ -6,6 +6,4 @@ It is a translator app that translates English into the dothraki language. It is
   * CSS
   * JS (react)
 
-# How it works
- It first takes text as input.then use Fectch to call an api
- Fetch return promise. 
+
